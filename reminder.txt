@@ -1,0 +1,5 @@
+run:
+sudo python openGate.py
+
+for disregarding i\o:
+$ nohup sudo python openGate.py &
