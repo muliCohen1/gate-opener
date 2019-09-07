@@ -14,7 +14,7 @@ def index():
 @route('/on')
 def index():
     GPIO.setup(CONTROL_PIN, GPIO.OUT)
-    GPIO.output(CONTROL_PIN, False) #for supporting cheap chinese' relay. muliCohen
+    GPIO.output(CONTROL_PIN, False) #for supporting cheap chinese' relays. muliCohen
     time.sleep(2)    
     GPIO.setup(CONTROL_PIN, GPIO.IN) #for supporting reversed HIGH/LOW. muliCohen
     return template('home.html')
