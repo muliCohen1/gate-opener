@@ -1,3 +1,5 @@
+__author__ = "Muli Cohen"
+
 from bottle import route, run, template, #request - not needed at stripped down version. muliCohen
 import RPi.GPIO as GPIO
 import time
