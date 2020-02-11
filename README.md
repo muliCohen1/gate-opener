@@ -4,7 +4,7 @@ To start the bottle server:
 ```
 sudo python openGate.py
 ```
-For disregarding i\o when using PuTTY:
+For disregarding i\o when accessing via ssh:
 ```
 $ nohup sudo python openGate.py &
 ```
